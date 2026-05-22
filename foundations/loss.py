@@ -31,4 +31,3 @@ class Solution:
         losses = np.sum(y_true * np.log(y_pred), axis=1)
         
         return round(float(-np.mean(losses)), 4)
-        pass
